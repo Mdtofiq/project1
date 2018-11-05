@@ -1,0 +1,130 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century Gothic;
+}
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(2.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+}
+
+ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+ul li{
+    display: inline-block;
+}
+
+ul li a{ 
+text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease;
+}
+
+ul li a:hover{
+    background-color: #fff;
+    color: #000;
+}
+
+.logo img{
+    float:left;
+    width: 150px;
+    height: auto;
+}
+
+.main{
+    max-width: 1200px;
+    margin: auto;
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font:center;
+    transform: translate(-50%,-50%);
+}
+
+.title h1{
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+}
+
+.title h1{
+    color: #fff;
+    font-size: 30px;
+    text-align: center;
+}
+
+.title p{
+    color: #fff;
+    font-size: 15px;
+    
+}
+
+.content{
+    width: 90%;
+    margin: 4em auto;
+    font-size: 20px;
+    line-height: 30p;
+    text-align: justify;
+}
+
+.row h2{
+    font-size: 35px;
+    text-align: center;
+}
+
+.row p{
+    font-size: 15px;
+    text-align: center;
+}
+
+.col-md-6{
+    float: left;
+    text-align: center;
+}
+
+.col-md-61{
+    float: right;
+    text-align: center;
+}
+
+.text-center h3{
+    text-align: center;
+    font-size: 35px;
+}
+
+.col-md-62 col-sm-62 h5{
+    float: right;
+    text-align: center;
+    font-size: 15px;
+}
+
+.col-md-62 col-sm-62 p1{
+    text-align: center;
+    font-size: 15px;
+}
+
+.text-center img{
+    padding-top: 25px;
+ display: block;
+    margin: 0 auto 0 auto;
+    
+}
+
+/*____footer____*/
+footer {
+    background-color: aqua;
+    clear: both;
+   
+   }
+
